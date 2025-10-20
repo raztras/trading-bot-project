@@ -1,0 +1,114 @@
+2025-10-20 00:06:51 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:06:51 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:06:53 - INFO - Completed bitcoin ingestion
+2025-10-20 00:11:13 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:11:13 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:11:15 - INFO - Completed bitcoin ingestion
+2025-10-20 00:12:07 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:12:07 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:12:09 - INFO - Completed bitcoin ingestion
+2025-10-20 00:42:24 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:42:24 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:42:26 - INFO - Completed bitcoin ingestion
+2025-10-20 00:43:43 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:44:49 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:44:49 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:44:50 - INFO - Completed bitcoin ingestion
+2025-10-20 00:51:20 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:51:20 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:51:22 - INFO - Completed bitcoin ingestion
+2025-10-20 00:51:52 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 00:51:52 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 00:51:54 - INFO - Completed bitcoin ingestion
+2025-10-20 00:53:07 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 00:53:07 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 00:53:09 - INFO - Completed bitcoin ingestion
+2025-10-20 00:54:22 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 00:54:23 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 00:54:24 - INFO - Completed bitcoin ingestion
+2025-10-20 01:00:40 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:00:40 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:00:42 - INFO - Completed bitcoin ingestion
+2025-10-20 01:03:41 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:03:41 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:03:43 - INFO - Completed bitcoin ingestion
+2025-10-20 01:04:30 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:04:30 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:04:31 - INFO - Completed bitcoin ingestion
+2025-10-20 01:08:23 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:08:23 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:08:25 - INFO - Completed bitcoin ingestion
+2025-10-20 01:09:34 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:09:34 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:09:36 - INFO - Completed bitcoin ingestion
+2025-10-20 01:12:21 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:12:21 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:12:23 - INFO - Completed bitcoin ingestion
+2025-10-20 01:16:04 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:16:04 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:16:06 - INFO - Completed bitcoin ingestion
+2025-10-20 01:20:36 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:20:36 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:20:38 - INFO - Completed bitcoin ingestion
+2025-10-20 01:22:20 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:22:21 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:22:22 - INFO - Completed bitcoin ingestion
+2025-10-20 01:32:00 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:32:00 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:32:02 - INFO - Completed bitcoin ingestion
+2025-10-20 01:45:16 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:52:24 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:52:24 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 01:54:54 - INFO - Fetched 2016 records from binance BTC/USDT (5m)
+2025-10-20 01:54:54 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-20 02:03:35 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:03:35 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:03:37 - INFO - Completed bitcoin ingestion
+2025-10-20 02:04:33 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:04:33 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:04:35 - INFO - Completed bitcoin ingestion
+2025-10-20 02:45:57 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:45:58 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:45:59 - INFO - Completed bitcoin ingestion
+2025-10-20 02:47:33 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:47:33 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:47:34 - INFO - Completed bitcoin ingestion
+2025-10-20 02:48:16 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:48:16 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:48:18 - INFO - Completed bitcoin ingestion
+2025-10-20 02:51:46 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:51:46 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:51:48 - INFO - Completed bitcoin ingestion
+2025-10-20 02:52:40 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:52:41 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:52:42 - INFO - Completed bitcoin ingestion
+2025-10-20 02:53:43 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:53:43 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:53:45 - INFO - Completed bitcoin ingestion
+2025-10-20 02:54:36 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:54:36 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:54:38 - INFO - Completed bitcoin ingestion
+2025-10-20 02:55:06 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:55:06 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:55:08 - INFO - Completed bitcoin ingestion
+2025-10-20 02:55:55 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 02:55:55 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 02:55:57 - INFO - Completed bitcoin ingestion
+2025-10-20 03:01:57 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 03:01:57 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 03:01:59 - INFO - Completed bitcoin ingestion
+2025-10-20 03:02:49 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 03:02:49 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 03:02:50 - INFO - Completed bitcoin ingestion
+2025-10-20 03:05:44 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 03:05:44 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 03:05:46 - INFO - Completed bitcoin ingestion
+2025-10-20 03:15:03 - INFO - Fetched 864 records from binance BTC/USDT (5m)
+2025-10-20 03:15:03 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_3.csv
+2025-10-20 03:15:05 - INFO - Completed bitcoin ingestion
+2025-10-20 03:17:30 - INFO - Fetched 576 records from binance BTC/USDT (5m)
+2025-10-20 03:17:30 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_2.csv
+2025-10-20 03:17:32 - INFO - Completed bitcoin ingestion
+2025-10-20 03:17:54 - INFO - Fetched 4032 records from binance BTC/USDT (5m)
+2025-10-20 03:17:54 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_14.csv
+2025-10-20 03:17:56 - INFO - Completed bitcoin ingestion

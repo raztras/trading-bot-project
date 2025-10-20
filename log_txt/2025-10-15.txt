@@ -1,0 +1,392 @@
+2025-10-15 02:05:19 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:05:19 - INFO - Showing the shape of the training...
+2025-10-15 02:05:19 - INFO - (14400, 12)
+2025-10-15 02:05:19 - INFO - Label distribution (horizon=20):
+target
+-1    5083
+ 1    4675
+ 0    4612
+Name: count, dtype: int64
+2025-10-15 02:05:20 - INFO - RandomForest trained and saved to C:\Users\rastr\Documents\crypto\files_train\rf_model.joblib
+2025-10-15 02:05:20 - INFO - Classification report:
+              precision    recall  f1-score   support
+
+          -1       0.39      0.36      0.38      1132
+           0       0.30      0.33      0.32       818
+           1       0.32      0.32      0.32       924
+
+    accuracy                           0.34      2874
+   macro avg       0.34      0.34      0.34      2874
+weighted avg       0.34      0.34      0.34      2874
+
+2025-10-15 02:05:26 - INFO - Collected 22 RSS items
+2025-10-15 02:05:26 - INFO - Saved to truncatable table)
+2025-10-15 02:05:27 - INFO - Saved to truncatable chart)
+2025-10-15 02:05:27 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/crypto/files_master/master.csv
+2025-10-15 02:06:46 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:06:52 - INFO - Collected 21 RSS items
+2025-10-15 02:06:52 - INFO - Saved to truncatable table)
+2025-10-15 02:06:53 - INFO - Saved to truncatable chart)
+2025-10-15 02:06:53 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/crypto/files_master/master.csv
+2025-10-15 02:09:30 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:10:06 - INFO - Collected 21 RSS items
+2025-10-15 02:10:06 - INFO - Saved to truncatable table)
+2025-10-15 02:10:06 - INFO - Saved to truncatable chart)
+2025-10-15 02:10:06 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/crypto/files_master/master.csv
+2025-10-15 02:10:30 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-15 02:10:37 - INFO - Collected 21 RSS items
+2025-10-15 02:10:38 - INFO - Saved to truncatable table)
+2025-10-15 02:10:38 - INFO - Saved to truncatable chart)
+2025-10-15 02:10:38 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/crypto/files_master/master.csv
+2025-10-15 02:11:42 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:11:47 - INFO - Collected 20 RSS items
+2025-10-15 02:11:47 - INFO - Saved to truncatable table)
+2025-10-15 02:11:48 - INFO - Saved to truncatable chart)
+2025-10-15 02:11:48 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/crypto/files_master/master.csv
+2025-10-15 02:22:55 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:23:01 - INFO - Collected 18 RSS items
+2025-10-15 02:23:01 - INFO - None
+2025-10-15 02:23:01 - INFO - news negative_ratio=0.28, articles=18
+2025-10-15 02:23:01 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=H)
+2025-10-15 02:23:41 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:23:46 - INFO - Collected 18 RSS items
+2025-10-15 02:23:46 - INFO - None
+2025-10-15 02:23:46 - INFO - news negative_ratio=0.28, articles=18
+2025-10-15 02:23:46 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=H)
+2025-10-15 02:24:22 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:24:27 - INFO - Collected 18 RSS items
+2025-10-15 02:24:27 - INFO - None
+2025-10-15 02:24:27 - INFO - news negative_ratio=0.28, articles=18
+2025-10-15 02:24:27 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=H)
+2025-10-15 02:25:24 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:25:30 - INFO - Collected 18 RSS items
+2025-10-15 02:25:30 - INFO - None
+2025-10-15 02:25:30 - INFO - news negative_ratio=0.28, articles=18
+2025-10-15 02:25:30 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=h)
+2025-10-15 02:25:31 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 02:28:24 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:28:29 - INFO - Collected 17 RSS items
+2025-10-15 02:28:29 - INFO - None
+2025-10-15 02:28:29 - INFO - news negative_ratio=0.24, articles=17
+2025-10-15 02:28:29 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=h)
+2025-10-15 02:28:30 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 02:29:25 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:29:30 - INFO - Collected 17 RSS items
+2025-10-15 02:29:30 - INFO - None
+2025-10-15 02:29:30 - INFO - news negative_ratio=0.24, articles=17
+2025-10-15 02:29:30 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5T)
+2025-10-15 02:29:31 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 02:38:16 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:38:24 - INFO - Collected 13 RSS items
+2025-10-15 02:38:24 - INFO - news negative_ratio=0.23, articles=13
+2025-10-15 02:38:24 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=H)
+2025-10-15 02:38:24 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 02:39:40 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:39:45 - INFO - Collected 11 RSS items
+2025-10-15 02:39:45 - INFO - news negative_ratio=0.27, articles=11
+2025-10-15 02:39:45 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 02:39:46 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 02:41:34 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:41:40 - INFO - Collected 11 RSS items
+2025-10-15 02:41:40 - INFO - news negative_ratio=0.27, articles=11
+2025-10-15 02:41:40 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 02:41:41 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 02:42:55 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 02:43:01 - INFO - Collected 11 RSS items
+2025-10-15 02:43:01 - INFO - news negative_ratio=0.27, articles=11
+2025-10-15 02:43:01 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 02:43:02 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:01:54 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:02:03 - INFO - Collected 11 RSS items
+2025-10-15 03:02:03 - INFO - news negative_ratio=0.27, articles=11
+2025-10-15 03:02:08 - INFO - {'trades': 108, 'cum_return': -0.09170624813927308, 'hit_rate': 0.4978902953586498, 'sharpe_like': -3.459946555369782}
+2025-10-15 03:02:08 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:02:08 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:05:05 - INFO - Fetched 14401 records from binance BTC/USDT (1m)
+2025-10-15 03:05:12 - INFO - Collected 12 RSS items
+2025-10-15 03:05:12 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:05:17 - INFO - {'trades': 23, 'cum_return': -0.07060901320539925, 'hit_rate': 0.4966101694915254, 'sharpe_like': -2.552835537819016}
+2025-10-15 03:05:17 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:05:18 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:07:18 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:07:23 - INFO - Collected 12 RSS items
+2025-10-15 03:07:23 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:07:28 - INFO - {'trades': 108, 'cum_return': -0.09170624813927308, 'hit_rate': 0.4978902953586498, 'sharpe_like': -3.459946555369782}
+2025-10-15 03:07:28 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:07:29 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:14:12 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:14:18 - INFO - Collected 12 RSS items
+2025-10-15 03:14:18 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:14:24 - INFO - {'trades': 69, 'cum_return': -0.21004493963747317, 'hit_rate': 0.4848993288590604, 'sharpe_like': -8.861804755753084}
+2025-10-15 03:14:24 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:14:25 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:15:31 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:15:39 - INFO - Collected 12 RSS items
+2025-10-15 03:15:39 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:15:45 - INFO - {'trades': 35, 'cum_return': 0.06825189851195579, 'hit_rate': 0.5226510067114094, 'sharpe_like': 2.9110032258856084}
+2025-10-15 03:15:45 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:15:46 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:21:07 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:21:13 - INFO - Collected 12 RSS items
+2025-10-15 03:21:13 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:21:20 - INFO - {'trades': 22, 'cum_return': 0.10383919358454441, 'hit_rate': 0.5061224489795918, 'sharpe_like': 4.158847107171664}
+2025-10-15 03:21:20 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:21:21 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:22:03 - INFO - Fetched 14401 records from binance BTC/USDT (1m)
+2025-10-15 03:22:12 - INFO - Collected 12 RSS items
+2025-10-15 03:22:12 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:22:18 - INFO - {'trades': 35, 'cum_return': 0.06374772013361296, 'hit_rate': 0.5061295971978984, 'sharpe_like': 2.7248540138209507}
+2025-10-15 03:22:18 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:22:18 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:23:21 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:23:27 - INFO - Collected 12 RSS items
+2025-10-15 03:23:27 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:23:31 - INFO - {'trades': 35, 'cum_return': -0.035992460512357494, 'hit_rate': 0.5032618825722274, 'sharpe_like': -1.1160740567840515}
+2025-10-15 03:23:31 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:23:32 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:24:22 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:24:28 - INFO - Collected 12 RSS items
+2025-10-15 03:24:28 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:24:32 - INFO - {'trades': 27, 'cum_return': 0.019267671230575933, 'hit_rate': 0.5069897483690587, 'sharpe_like': 1.0619637453009796}
+2025-10-15 03:24:32 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:24:33 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:25:07 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:25:17 - INFO - Collected 12 RSS items
+2025-10-15 03:25:17 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:25:22 - INFO - {'trades': 12, 'cum_return': 0.0821866488687708, 'hit_rate': 0.5089538171536286, 'sharpe_like': 3.421920354216691}
+2025-10-15 03:25:22 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:25:22 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:27:54 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:27:59 - INFO - Collected 12 RSS items
+2025-10-15 03:27:59 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:28:05 - INFO - {'trades': 16, 'cum_return': -0.0656390057426306, 'hit_rate': 0.5008403361344538, 'sharpe_like': -2.3278159687702478}
+2025-10-15 03:28:05 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:28:06 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:28:33 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:28:37 - INFO - Collected 12 RSS items
+2025-10-15 03:28:37 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:28:41 - INFO - {'trades': 12, 'cum_return': -0.1806514775102569, 'hit_rate': 0.4611171960569551, 'sharpe_like': -7.605319255456906}
+2025-10-15 03:28:41 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:28:42 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:29:21 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:29:27 - INFO - Collected 12 RSS items
+2025-10-15 03:29:27 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:29:31 - INFO - {'trades': 27, 'cum_return': -0.12122003396838266, 'hit_rate': 0.4976700838769804, 'sharpe_like': -4.7391957107652045}
+2025-10-15 03:29:32 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:29:32 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:29:58 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:30:03 - INFO - Collected 12 RSS items
+2025-10-15 03:30:03 - INFO - news negative_ratio=0.33, articles=12
+2025-10-15 03:30:09 - INFO - {'trades': 21, 'cum_return': -0.017800379720774084, 'hit_rate': 0.49032800672834315, 'sharpe_like': -0.3678530122577951}
+2025-10-15 03:30:09 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:30:10 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:30:42 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:30:50 - INFO - Collected 9 RSS items
+2025-10-15 03:30:50 - INFO - news negative_ratio=0.33, articles=9
+2025-10-15 03:30:56 - INFO - {'trades': 5, 'cum_return': 0.09343129633891523, 'hit_rate': 0.5069808027923212, 'sharpe_like': 3.8231126305344385}
+2025-10-15 03:30:56 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:30:57 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:31:20 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:31:24 - INFO - Collected 9 RSS items
+2025-10-15 03:31:24 - INFO - news negative_ratio=0.33, articles=9
+2025-10-15 03:31:31 - INFO - {'trades': 69, 'cum_return': 0.1474865501108884, 'hit_rate': 0.5214105793450882, 'sharpe_like': 5.715627610667761}
+2025-10-15 03:31:31 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:31:32 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:32:00 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:32:06 - INFO - Collected 9 RSS items
+2025-10-15 03:32:06 - INFO - news negative_ratio=0.33, articles=9
+2025-10-15 03:32:13 - INFO - {'trades': 41, 'cum_return': -0.10621337453509838, 'hit_rate': 0.49370277078085645, 'sharpe_like': -4.041560082782778}
+2025-10-15 03:32:13 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:32:13 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:32:37 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:32:42 - INFO - Collected 8 RSS items
+2025-10-15 03:32:42 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 03:32:48 - INFO - {'trades': 191, 'cum_return': -0.1771135497546017, 'hit_rate': 0.4869857262804366, 'sharpe_like': -7.287811699806145}
+2025-10-15 03:32:48 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:32:49 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:33:18 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:33:23 - INFO - Collected 8 RSS items
+2025-10-15 03:33:23 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 03:33:30 - INFO - {'trades': 49, 'cum_return': 0.0563661256614878, 'hit_rate': 0.5314861460957179, 'sharpe_like': 2.4717807412373496}
+2025-10-15 03:33:30 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:33:30 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:34:16 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:34:21 - INFO - Collected 8 RSS items
+2025-10-15 03:34:21 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 03:34:27 - INFO - {'trades': 80, 'cum_return': 0.01407151604160739, 'hit_rate': 0.5113350125944585, 'sharpe_like': 0.876823139433809}
+2025-10-15 03:34:27 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:34:28 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:37:56 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:38:01 - INFO - Collected 8 RSS items
+2025-10-15 03:38:01 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 03:38:07 - INFO - {'trades': 39, 'cum_return': -0.031500417005083436, 'hit_rate': 0.5097345132743363, 'sharpe_like': -0.9190990164766272}
+2025-10-15 03:38:07 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:38:08 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:40:20 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:40:28 - INFO - Collected 7 RSS items
+2025-10-15 03:40:28 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:40:35 - INFO - {'trades': 36, 'cum_return': -0.09029111649228805, 'hit_rate': 0.49340369393139843, 'sharpe_like': -3.3583601177046405}
+2025-10-15 03:40:35 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:40:35 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:41:03 - INFO - Fetched 14401 records from binance BTC/USDT (1m)
+2025-10-15 03:41:08 - INFO - Collected 7 RSS items
+2025-10-15 03:41:08 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:41:14 - INFO - {'trades': 9, 'cum_return': -0.03814805872440241, 'hit_rate': 0.4872037914691943, 'sharpe_like': -1.2037879022644091}
+2025-10-15 03:41:14 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:41:15 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:45:10 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:45:17 - INFO - Collected 6 RSS items
+2025-10-15 03:45:17 - INFO - news negative_ratio=0.17, articles=6
+2025-10-15 03:45:18 - INFO - {'trades': 4, 'cum_return': -0.008698191012436851, 'hit_rate': 0.4787234042553192, 'sharpe_like': -3.323832991532963}
+2025-10-15 03:45:18 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:45:19 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:47:31 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:47:36 - INFO - Collected 7 RSS items
+2025-10-15 03:47:36 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:47:38 - INFO - {'trades': 11, 'cum_return': -0.035863402615925355, 'hit_rate': 0.4631578947368421, 'trade_hit_rate': 0.2727272727272727, 'sharpe_like': -17.384057282545722}
+2025-10-15 03:47:38 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:47:38 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:48:10 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:48:15 - INFO - Collected 7 RSS items
+2025-10-15 03:48:15 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:48:17 - INFO - {'trades': 12, 'cum_return': -0.0029651343238363825, 'hit_rate': 0.48677248677248675, 'trade_hit_rate': 0.4166666666666667, 'sharpe_like': -1.2636077631010005}
+2025-10-15 03:48:17 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:48:18 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:48:40 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:48:45 - INFO - Collected 7 RSS items
+2025-10-15 03:48:45 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:48:47 - INFO - {'trades': 30, 'cum_return': -0.0633697648382121, 'hit_rate': 0.4177777777777778, 'trade_hit_rate': 0.4, 'sharpe_like': -27.08752791968178}
+2025-10-15 03:48:47 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:48:47 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:49:18 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:49:24 - INFO - Collected 7 RSS items
+2025-10-15 03:49:24 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:49:25 - INFO - {'trades': 14, 'cum_return': -0.010673837247504814, 'hit_rate': 0.5315315315315315, 'trade_hit_rate': 0.5714285714285714, 'sharpe_like': -4.443081212088261}
+2025-10-15 03:49:25 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:49:26 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:49:48 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:49:53 - INFO - Collected 7 RSS items
+2025-10-15 03:49:53 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:49:55 - INFO - {'trades': 3, 'cum_return': 0.03098337658009198, 'hit_rate': 0.554140127388535, 'trade_hit_rate': 0.6666666666666666, 'sharpe_like': 15.163331207034608}
+2025-10-15 03:49:55 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:49:56 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:50:18 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:50:24 - INFO - Collected 7 RSS items
+2025-10-15 03:50:24 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:50:26 - INFO - {'trades': 5, 'cum_return': 0.010501915025436404, 'hit_rate': 0.5569620253164557, 'trade_hit_rate': 0.4, 'sharpe_like': 5.304614489133916}
+2025-10-15 03:50:26 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:50:26 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:50:47 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:50:52 - INFO - Collected 7 RSS items
+2025-10-15 03:50:52 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:50:54 - INFO - {'trades': 1, 'cum_return': 0.013105833266213951, 'hit_rate': 0.5128205128205128, 'trade_hit_rate': 1.0, 'sharpe_like': 6.609386013687535}
+2025-10-15 03:50:54 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:50:54 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:51:24 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:51:29 - INFO - Collected 7 RSS items
+2025-10-15 03:51:29 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:51:31 - INFO - {'trades': 5, 'cum_return': 0.010341316331759831, 'hit_rate': 0.5153061224489796, 'trade_hit_rate': 0.6, 'sharpe_like': 5.102557453532289}
+2025-10-15 03:51:31 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:51:31 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:51:56 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:52:02 - INFO - Collected 7 RSS items
+2025-10-15 03:52:02 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:52:03 - INFO - {'trades': 9, 'cum_return': -0.010236904736456554, 'hit_rate': 0.5, 'trade_hit_rate': 0.6666666666666666, 'sharpe_like': -4.417738044568528}
+2025-10-15 03:52:03 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:52:04 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:52:37 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:52:42 - INFO - Collected 7 RSS items
+2025-10-15 03:52:42 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:52:44 - INFO - {'trades': 3, 'cum_return': -0.03956745501402825, 'hit_rate': 0.4230769230769231, 'trade_hit_rate': 0.3333333333333333, 'sharpe_like': -19.651307191986174}
+2025-10-15 03:52:44 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:52:45 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:53:16 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:53:21 - INFO - Collected 7 RSS items
+2025-10-15 03:53:21 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:53:23 - INFO - {'trades': 5, 'cum_return': -0.03540657196536112, 'hit_rate': 0.47, 'trade_hit_rate': 0.2, 'sharpe_like': -16.327202451706288}
+2025-10-15 03:53:23 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:53:24 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:53:49 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:53:55 - INFO - Collected 7 RSS items
+2025-10-15 03:53:55 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:53:56 - INFO - {'trades': 3, 'cum_return': -0.01777265789902538, 'hit_rate': 0.4807692307692308, 'trade_hit_rate': 0.3333333333333333, 'sharpe_like': -8.634653834688736}
+2025-10-15 03:53:56 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:53:57 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:54:17 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-15 03:54:22 - INFO - Collected 7 RSS items
+2025-10-15 03:54:22 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:54:24 - INFO - {'trades': 2, 'cum_return': 0.01440194211328727, 'hit_rate': 0.5641025641025641, 'trade_hit_rate': 1.0, 'sharpe_like': 7.176814391072858}
+2025-10-15 03:54:24 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_2.csv (granularity=5min)
+2025-10-15 03:54:24 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 03:57:35 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 03:57:41 - INFO - Collected 7 RSS items
+2025-10-15 03:57:41 - INFO - news negative_ratio=0.14, articles=7
+2025-10-15 03:57:46 - INFO - {'trades': 24, 'cum_return': 0.11004951017178422, 'hit_rate': 0.5285714285714286, 'sharpe_like': 4.421242970926902}
+2025-10-15 03:57:46 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 03:57:46 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:00:11 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:00:21 - INFO - Collected 8 RSS items
+2025-10-15 04:00:21 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:00:26 - INFO - {'trades': 25, 'cum_return': -0.022331924137877768, 'hit_rate': 0.49747899159663866, 'sharpe_like': -0.5493212731225697}
+2025-10-15 04:00:26 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:00:26 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:00:54 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:01:06 - INFO - Collected 8 RSS items
+2025-10-15 04:01:06 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:01:10 - INFO - {'trades': 21, 'cum_return': 0.07783474617100539, 'hit_rate': 0.5226890756302521, 'sharpe_like': 3.2690198565845834}
+2025-10-15 04:01:10 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:01:11 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:01:40 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:01:45 - INFO - Collected 8 RSS items
+2025-10-15 04:01:45 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:01:49 - INFO - {'trades': 13, 'cum_return': 0.06112258497568179, 'hit_rate': 0.5068610634648371, 'sharpe_like': 2.6582302977954124}
+2025-10-15 04:01:49 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:01:50 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:02:16 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:02:21 - INFO - Collected 8 RSS items
+2025-10-15 04:02:21 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:02:25 - INFO - {'trades': 21, 'cum_return': 0.11134380450952874, 'hit_rate': 0.5171526586620926, 'sharpe_like': 4.469056644330395}
+2025-10-15 04:02:25 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:02:26 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:03:06 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:03:12 - INFO - Collected 8 RSS items
+2025-10-15 04:03:12 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:03:17 - INFO - {'trades': 21, 'cum_return': 0.11134380450952874, 'hit_rate': 0.5171526586620926, 'sharpe_like': 4.469056644330395}
+2025-10-15 04:03:17 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:03:18 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:03:49 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:03:54 - INFO - Collected 8 RSS items
+2025-10-15 04:03:54 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:03:59 - INFO - {'trades': 21, 'cum_return': 0.11134380450952874, 'hit_rate': 0.5171526586620926, 'sharpe_like': 4.469056644330395}
+2025-10-15 04:03:59 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:03:59 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:04:22 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:04:27 - INFO - Collected 8 RSS items
+2025-10-15 04:04:27 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:04:32 - INFO - {'trades': 10, 'cum_return': 0.07325041338949156, 'hit_rate': 0.5182357930449534, 'sharpe_like': 3.1021730202371787}
+2025-10-15 04:04:32 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:04:33 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:04:53 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:04:58 - INFO - Collected 8 RSS items
+2025-10-15 04:04:58 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:05:03 - INFO - {'trades': 16, 'cum_return': 0.1297742945738305, 'hit_rate': 0.5148683092608326, 'sharpe_like': 5.096455745722576}
+2025-10-15 04:05:03 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:05:03 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:05:21 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:05:27 - INFO - Collected 8 RSS items
+2025-10-15 04:05:27 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:05:31 - INFO - {'trades': 20, 'cum_return': 0.010973194234642714, 'hit_rate': 0.4966159052453469, 'sharpe_like': 0.7440392772311749}
+2025-10-15 04:05:31 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:05:32 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:05:52 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:05:57 - INFO - Collected 8 RSS items
+2025-10-15 04:05:57 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:06:02 - INFO - {'trades': 24, 'cum_return': 0.04040507271446647, 'hit_rate': 0.514406779661017, 'sharpe_like': 1.8863645294203375}
+2025-10-15 04:06:02 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv (granularity=5min)
+2025-10-15 04:06:03 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-15 04:10:53 - INFO - Fetched 14400 records from binance BTC/USDT (1m)
+2025-10-15 04:10:58 - INFO - Collected 8 RSS items
+2025-10-15 04:10:58 - INFO - news negative_ratio=0.25, articles=8
+2025-10-15 04:11:03 - INFO - {'trades': 18, 'cum_return': 0.07726598913828919, 'hit_rate': 0.5203389830508475, 'sharpe_like': 3.2313275481798946}
+2025-10-15 04:11:03 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-15 04:11:03 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv

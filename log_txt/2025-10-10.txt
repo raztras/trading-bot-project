@@ -1,0 +1,27 @@
+2025-10-10 12:09:01 - INFO - Cleaning up files directory: C:\Users\rastr\Documents\crypto\files
+2025-10-10 12:09:01 - INFO - Processing bitcoin
+2025-10-10 12:09:01 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-10 12:09:01 - INFO - Request URL: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart | Params: {'vs_currency': 'usd', 'days': 10}
+2025-10-10 12:09:02 - INFO - Response status code: 200
+2025-10-10 12:09:02 - INFO - Raw response: {"prices":[[1759230136030,113034.88754235029],[1759233682003,113090.666325633],[1759237329316,113153.91895283562],[1759240935094,113286.25046418571],[1759244542020,113560.19793834805],[1759248146209,113103.90379580077],[1759251689261,112843.61303366242],[1759255322079,113343.47542896615],[1759258938018,113644.47187342969],[1759262545069,114491.9103392663],[1759266157088,114618.57914948085],[1759269721276,114360.38237831357],[1759273242176,113941.29371405822],[1759276911573,114024.22783550054],[1
+2025-10-10 12:09:02 - INFO - Fetched 241 records for bitcoin
+2025-10-10 12:09:02 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-10 12:09:03 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-10 16:42:55 - INFO - Cleaning up files directory: C:\Users\rastr\Documents\crypto\files
+2025-10-10 16:42:55 - INFO - Processing bitcoin
+2025-10-10 16:42:55 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-10 16:42:55 - INFO - Request URL: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart | Params: {'vs_currency': 'usd', 'days': 10}
+2025-10-10 16:42:55 - INFO - Response status code: 200
+2025-10-10 16:42:55 - INFO - Raw response: {"prices":[[1759248146209,113103.90379580077],[1759251689261,112843.61303366242],[1759255322079,113343.47542896615],[1759258938018,113644.47187342969],[1759262545069,114491.9103392663],[1759266157088,114618.57914948085],[1759269721276,114360.38237831357],[1759273242176,113941.29371405822],[1759276911573,114024.22783550054],[1759280524729,114117.90747650724],[1759284138394,114513.0525092975],[1759287739999,114279.18471033598],[1759291285765,114214.15362627294],[1759294897859,114305.53341495708],[
+2025-10-10 16:42:55 - INFO - Fetched 241 records for bitcoin
+2025-10-10 16:42:55 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-10 16:42:57 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-10 19:54:16 - INFO - Cleaning up files directory: C:\Users\rastr\Documents\crypto\files
+2025-10-10 19:54:16 - INFO - Processing bitcoin
+2025-10-10 19:54:16 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-10 19:54:16 - INFO - Request URL: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart | Params: {'vs_currency': 'usd', 'days': 10}
+2025-10-10 19:54:16 - INFO - Response status code: 200
+2025-10-10 19:54:16 - INFO - Raw response: {"prices":[[1759258938018,113644.47187342969],[1759262545069,114491.9103392663],[1759266157088,114618.57914948085],[1759269721276,114360.38237831357],[1759273242176,113941.29371405822],[1759276911573,114024.22783550054],[1759280524729,114117.90747650724],[1759284138394,114513.0525092975],[1759287739999,114279.18471033598],[1759291285765,114214.15362627294],[1759294897859,114305.53341495708],[1759298511704,114613.05189776568],[1759302408664,114388.4661783791],[1759305678767,114527.88667529637],[1
+2025-10-10 19:54:16 - INFO - Fetched 241 records for bitcoin
+2025-10-10 19:54:16 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-10 19:54:17 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png

@@ -1,0 +1,18 @@
+2025-10-16 21:54:32 - INFO - Fetched 144001 records from binance BTC/USDT (1m)
+2025-10-16 21:54:37 - INFO - Collected 21 RSS items
+2025-10-16 21:54:37 - INFO - news negative_ratio=0.48, articles=21
+2025-10-16 21:55:31 - INFO - {'trades': 20, 'cum_return': -0.06310888941736936, 'hit_rate': 0.500890630566441, 'sharpe_like': -0.4118187181367719, 'sortino_like': -0.38942131239091676, 'max_drawdown': -0.19349995583604251}
+2025-10-16 21:55:31 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_100.csv
+2025-10-16 21:55:34 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-16 21:58:59 - INFO - Fetched 144000 records from binance BTC/USDT (1m)
+2025-10-16 21:59:14 - INFO - Collected 21 RSS items
+2025-10-16 21:59:14 - INFO - news negative_ratio=0.52, articles=21
+2025-10-16 22:01:07 - INFO - {'trades': 20, 'cum_return': -0.06310888941736936, 'hit_rate': 0.500890630566441, 'sharpe_like': -0.4118187181367719, 'sortino_like': -0.38942131239091676, 'max_drawdown': -0.19349995583604251}
+2025-10-16 22:01:07 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_100.csv
+2025-10-16 22:01:12 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv
+2025-10-16 22:25:07 - INFO - Fetched 64801 records from binance BTC/USDT (1m)
+2025-10-16 22:25:13 - INFO - Collected 21 RSS items
+2025-10-16 22:25:13 - INFO - news negative_ratio=0.52, articles=21
+2025-10-16 22:25:34 - INFO - {'trades': 20, 'cum_return': 0.08874196289853353, 'hit_rate': 0.5044776119402985, 'sharpe_like': 1.4978369329530898, 'sortino_like': 1.21594823095103, 'max_drawdown': -0.12094484261894412}
+2025-10-16 22:25:34 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_45.csv
+2025-10-16 22:25:35 - INFO - Appended latest row to master file: C:\Users\rastr\Documents\crypto\files_master\master.csv

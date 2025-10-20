@@ -1,0 +1,77 @@
+2025-10-11 22:56:07 - INFO - Cleaning up files directory: C:\Users\rastr\Documents\crypto\files
+2025-10-11 22:56:07 - INFO - Processing bitcoin
+2025-10-11 22:56:07 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 22:56:07 - INFO - Request URL: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart | Params: {'vs_currency': 'usd', 'days': 10}
+2025-10-11 22:56:07 - INFO - Response status code: 200
+2025-10-11 22:56:07 - INFO - Raw response: {"prices":[[1759356078686,117491.0350655874],[1759359730696,117890.1276507497],[1759363344809,118503.24451752483],[1759366958889,118580.43667265555],[1759370511015,118792.11274433398],[1759374186616,118751.36338036042],[1759377695277,118774.17030297645],[1759381322085,118637.56780342005],[1759384934057,118386.89339564343],[1759388542312,118617.56865852905],[1759392083788,118544.2524595524],[1759395740931,118682.5766234885],[1759399598898,118932.97701945083],[1759402957646,118688.64326239079],[17
+2025-10-11 22:56:07 - INFO - Fetched 241 records for bitcoin
+2025-10-11 22:56:07 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-11 22:56:08 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-11 23:07:00 - INFO - Cleaning up files directory: C:\Users\rastr\Documents\crypto\files
+2025-10-11 23:07:00 - INFO - Processing bitcoin
+2025-10-11 23:07:00 - INFO - Fetching historical prices for bitcoin (gbp, 10 days)
+2025-10-11 23:07:00 - INFO - Request URL: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart | Params: {'vs_currency': 'gbp', 'days': 10}
+2025-10-11 23:07:00 - INFO - Response status code: 200
+2025-10-11 23:07:00 - INFO - Raw response: {"prices":[[1759359730696,87452.42926298564],[1759363344809,87908.07684799028],[1759366958889,88009.92577669829],[1759370511015,88107.87243824707],[1759374186616,88073.61117013163],[1759377695277,88126.15849467769],[1759381322085,88036.54947690935],[1759384934057,87860.59615979003],[1759388542312,87960.1463333203],[1759392083788,87844.49176734478],[1759395740931,87875.30943129328],[1759399598898,88106.38190684833],[1759402957646,88012.25783615003],[1759406543784,88221.7030079127],[1759410134331,
+2025-10-11 23:07:00 - INFO - Fetched 241 records for bitcoin
+2025-10-11 23:07:00 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10.csv
+2025-10-11 23:07:01 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10_chart.png
+2025-10-11 23:07:40 - INFO - Fetching historical prices for bitcoin (gbp, 10 days)
+2025-10-11 23:07:41 - INFO - Response status code: 200
+2025-10-11 23:07:41 - INFO - Raw response: {"prices":[[1759359730696,87452.42926298564],[1759363344809,87908.07684799028],[1759366958889,88009.92577669829],[1759370511015,88107.87243824707],[1759374186616,88073.61117013163],[1759377695277,88126.15849467769],[1759381322085,88036.54947690935],[1759384934057,87860.59615979003],[1759388542312,87960.1463333203],[1759392083788,87844.49176734478],[1759395740931,87875.30943129328],[1759399598898,88106.38190684833],[1759402957646,88012.25783615003],[1759406543784,88221.7030079127],[1759410134331,
+2025-10-11 23:07:41 - INFO - Fetched 241 records for bitcoin
+2025-10-11 23:07:41 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10.csv
+2025-10-11 23:07:41 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10_chart.png
+2025-10-11 23:08:21 - INFO - Fetching historical prices for bitcoin (gbp, 10 days)
+2025-10-11 23:08:21 - INFO - Response status code: 200
+2025-10-11 23:08:21 - INFO - API request successful
+2025-10-11 23:08:21 - INFO - Fetched 241 records for bitcoin
+2025-10-11 23:08:21 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10.csv
+2025-10-11 23:08:22 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10_chart.png
+2025-10-11 23:12:42 - INFO - Fetching historical prices for bitcoin (gbp, 10 days)
+2025-10-11 23:12:42 - INFO - Response status code: 200
+2025-10-11 23:12:42 - INFO - API request successful
+2025-10-11 23:12:42 - INFO - Fetched 241 records for bitcoin
+2025-10-11 23:12:43 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10_chart.png
+2025-10-11 23:17:33 - INFO - Fetching historical prices for bitcoin (gbp, 10 days)
+2025-10-11 23:17:34 - INFO - Response status code: 200
+2025-10-11 23:17:34 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:17:34 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10_chart.png
+2025-10-11 23:20:15 - INFO - Fetching historical prices for bitcoin (gbp, 10 days)
+2025-10-11 23:20:15 - INFO - Response status code: 200
+2025-10-11 23:20:17 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:20:17 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_gbp_10_chart.png
+2025-10-11 23:23:15 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 23:23:15 - INFO - Response status code: 200
+2025-10-11 23:23:15 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:23:16 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-11 23:44:21 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 23:44:21 - INFO - Response status code: 200
+2025-10-11 23:44:21 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:44:22 - INFO - news negative_ratio=0.00, articles=0
+2025-10-11 23:44:22 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-11 23:44:22 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-11 23:46:22 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 23:46:22 - INFO - Response status code: 200
+2025-10-11 23:46:22 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:46:22 - INFO - news negative_ratio=0.00, articles=0
+2025-10-11 23:46:22 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-11 23:46:22 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-11 23:52:47 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 23:52:48 - INFO - Response status code: 200
+2025-10-11 23:52:48 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:52:48 - INFO - news negative_ratio=0.00, articles=0
+2025-10-11 23:52:48 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-11 23:52:48 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-11 23:56:30 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 23:56:30 - INFO - Response status code: 200
+2025-10-11 23:56:30 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:56:31 - INFO - news negative_ratio=0.00, articles=0
+2025-10-11 23:56:31 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-11 23:56:31 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png
+2025-10-11 23:57:13 - INFO - Fetching historical prices for bitcoin (usd, 10 days)
+2025-10-11 23:57:13 - INFO - Response status code: 200
+2025-10-11 23:57:14 - INFO - Fetched 241 records for bitcoin (resampled to 5 min)
+2025-10-11 23:57:14 - INFO - news negative_ratio=0.00, articles=0
+2025-10-11 23:57:14 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10.csv
+2025-10-11 23:57:14 - INFO - Saved chart for bitcoin to C:\Users\rastr\Documents\crypto\files\bitcoin_usd_10_chart.png

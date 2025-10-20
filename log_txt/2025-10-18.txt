@@ -1,0 +1,70 @@
+2025-10-18 00:27:56 - INFO - Fetched 20160 records from binance BTC/USDT (1m)
+2025-10-18 00:28:03 - INFO - Collected 13 RSS items
+2025-10-18 00:28:03 - INFO - news negative_ratio=0.31, articles=13
+2025-10-18 00:28:03 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_14.csv
+2025-10-18 00:28:03 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 00:28:03 - INFO - Completed bitcoin ingestion
+2025-10-18 00:29:19 - INFO - Fetched 20160 records from binance BTC/USDT (1m)
+2025-10-18 00:29:25 - INFO - Collected 13 RSS items
+2025-10-18 00:29:25 - INFO - news negative_ratio=0.31, articles=13
+2025-10-18 00:29:25 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_14.csv
+2025-10-18 00:29:26 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 00:29:26 - INFO - Completed bitcoin ingestion
+2025-10-18 00:29:45 - INFO - Fetched 20160 records from binance BTC/USDT (1m)
+2025-10-18 00:29:51 - INFO - Collected 13 RSS items
+2025-10-18 00:29:51 - INFO - news negative_ratio=0.31, articles=13
+2025-10-18 00:29:51 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_14.csv
+2025-10-18 00:29:51 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 00:29:51 - INFO - Completed bitcoin ingestion
+2025-10-18 00:38:38 - INFO - Fetched 20160 records from binance BTC/USDT (1m)
+2025-10-18 00:38:46 - INFO - Collected 14 RSS items
+2025-10-18 00:38:46 - INFO - news negative_ratio=0.36, articles=14
+2025-10-18 00:38:46 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_14.csv
+2025-10-18 00:38:47 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 00:38:47 - INFO - Completed bitcoin ingestion
+2025-10-18 00:47:41 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 00:50:53 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 00:53:44 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 00:53:49 - INFO - Collected 15 RSS items
+2025-10-18 00:53:49 - INFO - news negative_ratio=0.33, articles=15
+2025-10-18 00:53:49 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 00:58:25 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 01:00:03 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 01:00:27 - INFO - Collected 15 RSS items
+2025-10-18 01:00:27 - INFO - news negative_ratio=0.33, articles=15
+2025-10-18 01:00:27 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 01:08:35 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 01:08:42 - INFO - Collected 15 RSS items
+2025-10-18 01:08:42 - INFO - news negative_ratio=0.33, articles=15
+2025-10-18 01:08:42 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 01:13:59 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 01:14:05 - INFO - Collected 14 RSS items
+2025-10-18 01:14:05 - INFO - news negative_ratio=0.36, articles=14
+2025-10-18 01:14:05 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 01:19:36 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 01:19:42 - INFO - Collected 14 RSS items
+2025-10-18 01:19:42 - INFO - news negative_ratio=0.36, articles=14
+2025-10-18 01:19:42 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 01:19:42 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 01:19:42 - INFO - Completed bitcoin ingestion
+2025-10-18 01:20:42 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-18 01:20:48 - INFO - Collected 14 RSS items
+2025-10-18 01:20:48 - INFO - news negative_ratio=0.36, articles=14
+2025-10-18 01:20:48 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_2.csv
+2025-10-18 01:20:48 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 01:20:48 - INFO - Completed bitcoin ingestion
+2025-10-18 01:34:39 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-18 01:34:45 - INFO - Collected 14 RSS items
+2025-10-18 01:34:45 - INFO - news negative_ratio=0.36, articles=14
+2025-10-18 01:34:45 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_2.csv
+2025-10-18 01:34:45 - INFO - Appended latest row to master file: C:/Users/rastr/Documents/trading-bot-project/data/master.csv
+2025-10-18 01:34:45 - INFO - Completed bitcoin ingestion
+2025-10-18 01:52:50 - INFO - Fetched 2880 records from binance BTC/USDT (1m)
+2025-10-18 01:52:50 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_2.csv
+2025-10-18 01:52:50 - INFO - Completed bitcoin ingestion
+2025-10-18 02:02:34 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 02:02:34 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 02:02:34 - INFO - Completed bitcoin ingestion
+2025-10-18 02:05:08 - INFO - Fetched 10080 records from binance BTC/USDT (1m)
+2025-10-18 02:05:08 - INFO - Saved bitcoin candlestick, MA, std dev, and signal data to C:/Users/rastr/Documents/trading-bot-project/data/temp\bitcoin_usd_7.csv
+2025-10-18 02:05:08 - INFO - Completed bitcoin ingestion
