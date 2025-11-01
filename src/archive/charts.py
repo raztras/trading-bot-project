@@ -7,37 +7,32 @@ from plotly.subplots import make_subplots  # added
 
 def plot_chart(df: pd.DataFrame, hours: int = DAYS*24):
     dfx = df.copy()
-    # Ensure timestamp is datetime
     if not isinstance(dfx.index, pd.DatetimeIndex):
         dfx["timestamp"] = pd.to_datetime(dfx["timestamp"], errors="coerce", utc=True)
         dfx = dfx.set_index("timestamp")
     dfx = dfx.sort_index()
-    # Filter to last N hours
+
     end = dfx.index.max()
     start = end - pd.Timedelta(hours=hours)
     dfx = dfx.loc[start:end]
     if dfx.empty:
         dfx = df.tail(60)  # fallback
 
-    # Safe x-axis (tz-naive)
     x_index = (
         dfx.index.tz_localize(None)
         if getattr(dfx.index, "tz", None) is not None
         else dfx.index
     )
 
-    # Detect RSI column
     rsi_col = None
     if "rsi" in dfx.columns:
         rsi_col = "rsi"
     else:
-        # fallback to any column starting with 'rsi'
         rsi_candidates = [c for c in dfx.columns if c.lower().startswith("rsi")]
         rsi_col = rsi_candidates[0] if rsi_candidates else None
 
     has_rsi = rsi_col is not None
 
-    # Figure: 2 rows if RSI present, otherwise single
     if has_rsi:
         fig = make_subplots(
             rows=2,
@@ -81,7 +76,6 @@ def plot_chart(df: pd.DataFrame, hours: int = DAYS*24):
             )
         )
 
-    # EMAs and SMAs (if present)
     for col, name, color in [
         ("ema_short", "EMA short", "#ff9800"),
         ("ema_long", "EMA long", "#6d4c41"),
@@ -101,7 +95,6 @@ def plot_chart(df: pd.DataFrame, hours: int = DAYS*24):
             else:
                 fig.add_trace(trace)
 
-    # Bollinger Bands (if present): shade between upper and lower
     if {"bb_upper", "bb_lower"}.issubset(dfx.columns):
         up = go.Scatter(
             x=x_index,
@@ -136,7 +129,6 @@ def plot_chart(df: pd.DataFrame, hours: int = DAYS*24):
         else:
             fig.add_trace(mid)
 
-    # RSI subplot
     if has_rsi:
         fig.add_trace(
             go.Scatter(
@@ -149,7 +141,6 @@ def plot_chart(df: pd.DataFrame, hours: int = DAYS*24):
             row=2,
             col=1,
         )
-        # Set RSI axis range and guide lines at 30/70
         fig.update_yaxes(range=[0, 100], title_text="RSI", row=2, col=1)
         fig.add_shape(
             type="line",
@@ -181,7 +172,6 @@ def plot_chart(df: pd.DataFrame, hours: int = DAYS*24):
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
     )
 
-    # Save to config FILES_DIR
     out_dir = Path(FILES_DIR)
     out_dir.mkdir(parents=True, exist_ok=True)
     end_ts = dfx.index.max()

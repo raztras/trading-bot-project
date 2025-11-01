@@ -1,0 +1,250 @@
+# ==========================================
+# TRADING STRATEGY PROFILES
+# ==========================================
+# Each profile represents a different risk/reward configuration
+# Profile performance based on 360-day backtests
+
+profiles:
+
+  # ==========================================
+  # WINNER: Best Overall Performance
+  # ==========================================
+  WINNER:
+    description: "Volume + ML (3%) + 5% Target - Best performer"
+    performance:
+      net_return: 11.97%
+      annualized: 40.7%
+      trades_per_year: 17
+      win_rate: 60.0%
+      profit_factor: 12.16
+      sharpe_ratio: 14.56
+      max_drawdown: -0.97%
+
+    # Market Configuration
+    market:
+      symbol: "BTC/USDT"
+      timeframe: "1h"
+
+    # Indicator Parameters
+    indicators:
+      sma_fast: 30
+      sma_slow: 60
+      volume_ma_period: 20
+      rsi_period: 14
+      bb_period: 20
+      bb_std: 2
+
+    # ML Configuration
+    ml:
+      enabled: true
+      prediction_horizon: 48  # hours
+      threshold: 0.03  # 3% minimum predicted gain
+      model_params:
+        n_estimators: 200
+        max_depth: 4
+        learning_rate: 0.05
+        subsample: 0.8
+        colsample_bytree: 0.8
+        random_state: 42
+
+    # Entry Conditions
+    entry:
+      require_sma_cross: true
+      require_volume: true  # Volume > MA
+      require_ml: true  # ML prediction > threshold
+      entry_fee: 0.001  # 0.1%
+
+    # Exit Conditions
+    exit:
+      profit_target: 0.05  # 5%
+      stop_loss: 0.02  # 2%
+      max_hold_hours: 72
+      exit_on_sma_cross_down: true
+      exit_fee: 0.001  # 0.1%
+
+    # Risk Management
+    risk:
+      position_size: 1.0  # 100% of capital
+      max_concurrent_trades: 1
+
+  # ==========================================
+  # CONSERVATIVE: Lower Risk, More Stable
+  # ==========================================
+  CONSERVATIVE:
+    description: "Volume Filter Only - Lower returns but more frequent trades"
+    performance:
+      net_return: 6.35%
+      annualized: 21.6%
+      trades_per_year: 31
+      win_rate: 44.4%
+      profit_factor: 2.59
+      sharpe_ratio: 6.32
+      max_drawdown: -3.06%
+
+    market:
+      symbol: "BTC/USDT"
+      timeframe: "1h"
+
+    indicators:
+      sma_fast: 30
+      sma_slow: 60
+      volume_ma_period: 20
+      rsi_period: 14
+      bb_period: 20
+      bb_std: 2
+
+    ml:
+      enabled: false  # No ML filtering
+
+    entry:
+      require_sma_cross: true
+      require_volume: true
+      require_ml: false
+      entry_fee: 0.001
+
+    exit:
+      profit_target: 0.04  # 4%
+      stop_loss: 0.02  # 2%
+      max_hold_hours: 72
+      exit_on_sma_cross_down: true
+      exit_fee: 0.001
+
+    risk:
+      position_size: 1.0
+      max_concurrent_trades: 1
+
+  # ==========================================
+  # AGGRESSIVE: Higher Targets, Lower Frequency
+  # ==========================================
+  AGGRESSIVE:
+    description: "Volume + ML + Higher Target - Maximum returns, lowest frequency"
+    performance:
+      net_return: 11.97%
+      annualized: 40.7%
+      trades_per_year: 17
+      win_rate: 60.0%
+      profit_factor: 12.16
+      sharpe_ratio: 14.56
+      max_drawdown: -0.97%
+
+    market:
+      symbol: "BTC/USDT"
+      timeframe: "1h"
+
+    indicators:
+      sma_fast: 30
+      sma_slow: 60
+      volume_ma_period: 20
+      rsi_period: 14
+      bb_period: 20
+      bb_std: 2
+
+    ml:
+      enabled: true
+      prediction_horizon: 48
+      threshold: 0.03
+      model_params:
+        n_estimators: 200
+        max_depth: 4
+        learning_rate: 0.05
+        subsample: 0.8
+        colsample_bytree: 0.8
+        random_state: 42
+
+    entry:
+      require_sma_cross: true
+      require_volume: true
+      require_ml: true
+      entry_fee: 0.001
+
+    exit:
+      profit_target: 0.05  # 5% target (same as WINNER)
+      stop_loss: 0.02
+      max_hold_hours: 72
+      exit_on_sma_cross_down: true
+      exit_fee: 0.001
+
+    risk:
+      position_size: 1.0
+      max_concurrent_trades: 1
+
+  # ==========================================
+  # MODERATE: Balanced Approach
+  # ==========================================
+  MODERATE:
+    description: "Volume + ML (3.5%) - Balanced risk/reward"
+    performance:
+      net_return: 9.07%
+      annualized: 30.9%
+      trades_per_year: 17
+      win_rate: 60.0%
+      profit_factor: 9.66
+      sharpe_ratio: 14.44
+      max_drawdown: -0.97%
+
+    market:
+      symbol: "BTC/USDT"
+      timeframe: "1h"
+
+    indicators:
+      sma_fast: 30
+      sma_slow: 60
+      volume_ma_period: 20
+      rsi_period: 14
+      bb_period: 20
+      bb_std: 2
+
+    ml:
+      enabled: true
+      prediction_horizon: 48
+      threshold: 0.035  # Slightly higher threshold
+      model_params:
+        n_estimators: 200
+        max_depth: 4
+        learning_rate: 0.05
+        subsample: 0.8
+        colsample_bytree: 0.8
+        random_state: 42
+
+    entry:
+      require_sma_cross: true
+      require_volume: true
+      require_ml: true
+      entry_fee: 0.001
+
+    exit:
+      profit_target: 0.04  # 4% target
+      stop_loss: 0.02
+      max_hold_hours: 72
+      exit_on_sma_cross_down: true
+      exit_fee: 0.001
+
+    risk:
+      position_size: 1.0
+      max_concurrent_trades: 1
+
+# ==========================================
+# DATA CONFIGURATION
+# ==========================================
+data:
+  train_days: 360
+  test_split: 0.3  # 30% for testing
+  min_data_points: 100
+
+# ==========================================
+# OUTPUT CONFIGURATION
+# ==========================================
+output:
+  csv_signals: true  # Export signals CSV
+  csv_trades: true   # Export trades CSV
+  html_chart: true   # Generate HTML visualization
+  save_model: true   # Save trained ML model
+  base_path: "../output"  # Root-level output directory
+
+# ==========================================
+# EXCHANGE CONFIGURATION
+# ==========================================
+exchange:
+  name: "binance"
+  rate_limit: true
+  timeout: 30000

@@ -2,7 +2,8 @@ import logging
 import os
 from datetime import datetime
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Get the repository root (parent of src/)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 today_str = datetime.now().strftime("%Y-%m-%d")
 LOGS_DIR = os.path.join(BASE_DIR, "log_txt")
 os.makedirs(LOGS_DIR, exist_ok=True)

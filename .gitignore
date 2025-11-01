@@ -69,3 +69,9 @@ desktop.ini
 *.h5
 *.parquet
 *.feather
+
+output/
+log_txt/
+*.pkl
+__pycache__/
+.venv/
