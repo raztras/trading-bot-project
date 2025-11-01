@@ -25,6 +25,7 @@ from metrics.backtester import Backtester
 from metrics.performance import PerformanceMetrics
 from exporters.export_chart import ChartGenerator
 from exporters.export_csv import DataExporter
+from exporters.export_summary import SummaryExporter
 
 warnings.filterwarnings("ignore")
 
@@ -55,6 +56,7 @@ class TradingStrategy:
         self.chart_generator = ChartGenerator(
             self.profile_config, self.output_config, profile
         )
+        self.summary_exporter = SummaryExporter(self.output_config)
 
     def run(self, days=None):
         """
@@ -109,6 +111,11 @@ class TradingStrategy:
 
         # 9. Generate HTML chart
         self.chart_generator.generate(signals_df)
+
+        # 10. Export performance summary
+        self.summary_exporter.export(
+            self.profile, metrics, len(df_test), trades_df, days
+        )
 
         logger.info("=" * 100)
         logger.info("COMPLETE!")
