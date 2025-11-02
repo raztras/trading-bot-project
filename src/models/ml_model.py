@@ -4,7 +4,9 @@ Machine Learning model training and prediction
 import xgboost as xgb
 import pickle
 import os
+import numpy as np
 from sklearn.metrics import mean_absolute_error
+from sklearn.model_selection import TimeSeriesSplit
 from logs import logger
 
 
@@ -78,15 +80,41 @@ class MLModel:
         X = cross_up_samples[self.feature_cols].fillna(0).values
         y = cross_up_samples["max_gain_pct"].values
 
-        # Train model
+        # Train model with time-series cross-validation
         model_params = self.ml_config["model_params"]
         self.model = xgb.XGBRegressor(**model_params)
+
+        # Perform time-series CV to check for overfitting
+        tscv = TimeSeriesSplit(n_splits=min(5, len(X) // 10))
+        cv_scores = []
+
+        logger.info(f"  Running {tscv.n_splits}-fold time-series cross-validation...")
+        for fold, (train_idx, val_idx) in enumerate(tscv.split(X)):
+            X_fold_train, X_fold_val = X[train_idx], X[val_idx]
+            y_fold_train, y_fold_val = y[train_idx], y[val_idx]
+
+            fold_model = xgb.XGBRegressor(**model_params)
+            fold_model.fit(X_fold_train, y_fold_train)
+
+            val_pred = fold_model.predict(X_fold_val)
+            fold_mae = mean_absolute_error(y_fold_val, val_pred)
+            cv_scores.append(fold_mae)
+
+        cv_mean = np.mean(cv_scores)
+        cv_std = np.std(cv_scores)
+        logger.info(f"  CV MAE: {cv_mean * 100:.2f}% (+/- {cv_std * 100:.2f}%)")
+
+        # Train final model on all data
         self.model.fit(X, y)
 
-        # Evaluate
+        # Evaluate on training set
         train_pred = self.model.predict(X)
         train_mae = mean_absolute_error(y, train_pred)
-        logger.info(f"  Training MAE: {train_mae * 100:.2f}%")
+        logger.info(f"  Final Training MAE: {train_mae * 100:.2f}%")
+
+        # Warn if significant overfitting detected
+        if train_mae < cv_mean * 0.7:
+            logger.warning(f"  ⚠️  Possible overfitting detected! Train MAE much lower than CV MAE")
 
         # Save model
         if self.output_config.get("save_model", True):

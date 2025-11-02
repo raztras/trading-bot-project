@@ -290,7 +290,7 @@ with open('src/output/ml_model_WINNER.pkl', 'rb') as f:
 import pandas as pd
 
 # Load signals
-df = pd.read_csv('src/output/signals_WINNER_20251101_023439.csv')
+df = pd.read_csv('src/output/signals_WINNER.csv')
 
 # Find all BUY signals
 buys = df[df['signal'] == 'BUY']
@@ -309,7 +309,7 @@ print(f"Avg ML prediction: {buys['ml_prediction'].mean()*100:.2f}%")
 import pandas as pd
 
 # Load trades
-trades = pd.read_csv('src/output/trades_WINNER_20251101_023439.csv')
+trades = pd.read_csv('src/output/trades_WINNER.csv')
 
 # Calculate metrics
 win_rate = (trades['pnl'] > 0).mean()
@@ -345,11 +345,11 @@ pip install pandas numpy xgboost ccxt pyyaml plotly scikit-learn
 
 **Based on 360-day backtest:**
 
-| Profile | Annual Return | Trades/Year | Win Rate | Max DD |
-|---------|---------------|-------------|----------|---------|
-| WINNER | 40.7% | 17 | 60% | -0.97% |
-| CONSERVATIVE | 21.6% | 31 | 44.4% | -3.06% |
-| MODERATE | 30.9% | 17 | 60% | -0.97% |
+| Profile      | Annual Return | Trades/Year | Win Rate | Max DD |
+|---------     |---------------|-------------|----------|--------|
+| WINNER       | 40.7%         | 17          | 60%      | -0.97% |
+| CONSERVATIVE | 21.6%         | 31          | 44.4%    | -3.06% |
+| MODERATE     | 30.9%         | 17          | 60%      | -0.97% |
 
 **Capital Growth Example (WINNER profile):**
 - Year 1: $10,000 → $14,070

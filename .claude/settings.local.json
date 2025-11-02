@@ -60,7 +60,14 @@
       "Bash(python:*)",
       "Bash(\"../.venv/Scripts/python.exe\" production_strategy.py --profile WINNER --days 360)",
       "Bash(\"../.venv/Scripts/python.exe\" main.py --profile WINNER --days 360)",
-      "Bash(\"../.venv/Scripts/python.exe\" main.py --profile WINNER --days 90)"
+      "Bash(\"../.venv/Scripts/python.exe\" main.py --profile WINNER --days 90)",
+      "Bash(\"../.venv/Scripts/python.exe\" main.py --profile OPTIMIZED --days 360)",
+      "Bash(\"../.venv/Scripts/pip.exe\" list)",
+      "Bash(\".venv/Scripts/pip.exe\" install supabase python-dotenv -q)",
+      "Bash(\".venv/Scripts/python.exe\" -m pip install supabase python-dotenv -q)",
+      "Bash(\".venv/Scripts/python.exe\" test_supabase.py)",
+      "Bash(\"../.venv/Scripts/python.exe\" main.py --profile OPTIMIZED --days 90)",
+      "Bash(\".venv/Scripts/python.exe\" run_paper_trading.py --profile OPTIMIZED)"
     ],
     "deny": [],
     "ask": []
