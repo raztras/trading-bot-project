@@ -27,7 +27,7 @@ if [ ! -d ".venv" ]; then
 fi
 
 PYTHON_PATH="$SCRIPT_DIR/.venv/bin/python"
-SCRIPT_PATH="$SCRIPT_DIR/run_paper_trading.py"
+SCRIPT_PATH="$SCRIPT_DIR/src/run_paper_trading.py"
 
 echo ""
 echo "✅ Python: $PYTHON_PATH"

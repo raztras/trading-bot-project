@@ -3,17 +3,13 @@
 Paper Trading Runner - Execute live paper trading strategy
 
 Run this script hourly via cron:
-5 * * * * cd /path/to/trading-bot && /path/to/python run_paper_trading.py --profile OPTIMIZED
+5 * * * * cd /path/to/trading-bot/src && /path/to/python run_paper_trading.py --profile OPTIMIZED
 
 This runs at :05 past each hour to ensure clean hourly OHLC data
 """
 import sys
-import os
 import argparse
 import warnings
-
-# Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
 from logs import logger
 from ingestion.config_loader import ConfigLoader
@@ -34,7 +30,7 @@ def main():
     parser.add_argument(
         "--config",
         type=str,
-        default="src/trading_profiles.yaml",
+        default="trading_profiles.yaml",
         help="Path to config file",
     )
     args = parser.parse_args()

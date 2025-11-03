@@ -16,9 +16,11 @@ This paper trading system runs your trading strategy in real-time using live mar
 ## 📦 What's Included
 
 ### Core Files
-- **`run_paper_trading.py`** - Main executable script
+- **`src/run_paper_trading.py`** - Main executable script
 - **`src/paper_trading/paper_engine.py`** - Trading logic
 - **`src/paper_trading/paper_db.py`** - Supabase data layer
+- **`src/exporters/supabase_schema.sql`** - Database schema
+- **`src/exporters/test_supabase.py`** - Connection test script
 - **`raspberry_pi_setup.sh`** - Automated setup script
 - **`paper_trading.log`** - Execution logs (created automatically)
 
@@ -48,7 +50,8 @@ Ensure you have:
 .venv\Scripts\activate   # Windows
 source .venv/bin/activate  # Mac/Linux
 
-# Run paper trading once
+# Run paper trading once (from src directory)
+cd src
 python run_paper_trading.py --profile OPTIMIZED
 
 # Check output for errors
@@ -101,6 +104,7 @@ tail -n 50 paper_trading.log
 
 Change which strategy to run:
 ```bash
+cd src
 python run_paper_trading.py --profile WINNER
 ```
 
@@ -219,8 +223,8 @@ grep CRON /var/log/syslog  # Ubuntu/Debian
 
 **Test manually:**
 ```bash
-cd ~/trading-bot-project
-.venv/bin/python run_paper_trading.py --profile OPTIMIZED
+cd ~/trading-bot-project/src
+../.venv/bin/python run_paper_trading.py --profile OPTIMIZED
 ```
 
 ### No ML predictions
@@ -243,6 +247,7 @@ cat .env
 
 **Test connection:**
 ```bash
+cd src/exporters
 python test_supabase.py
 ```
 
