@@ -177,28 +177,39 @@ class PaperTradingEngine:
 
         # Check for buy signal (SMA cross up)
         if latest["sma_cross_up"]:
-            # Apply ML filter if enabled
-            if self.ml_config["enabled"] and ml_prediction is not None:
-                ml_threshold = self.ml_config.get("threshold", 0.01)
-
-                if ml_prediction >= ml_threshold:
-                    signal_type = "buy"
-                    action_taken = "entered"
-                    reason = f"SMA cross up + ML prediction {ml_prediction:.4f} > {ml_threshold}"
-
-                    # Enter position
-                    self._enter_position(latest, timestamp, ml_prediction, portfolio)
-                else:
+            # Check volume filter if enabled
+            volume_ok = True
+            if self.entry_config.get("require_volume", False):
+                volume_ok = latest["high_volume"]
+                if not volume_ok:
                     signal_type = "buy"
                     action_taken = "ignored"
-                    reason = f"SMA cross up but ML prediction {ml_prediction:.4f} < {ml_threshold}"
-            else:
-                # No ML, enter on SMA cross up
-                signal_type = "buy"
-                action_taken = "entered"
-                reason = "SMA cross up"
+                    reason = "SMA cross up but volume too low"
+                    logger.info(f"⚪ SIGNAL IGNORED: {reason}")
 
-                self._enter_position(latest, timestamp, ml_prediction, portfolio)
+            # Apply ML filter if enabled (only if volume passed)
+            if volume_ok:
+                if self.ml_config["enabled"] and ml_prediction is not None:
+                    ml_threshold = self.ml_config.get("threshold", 0.01)
+
+                    if ml_prediction >= ml_threshold:
+                        signal_type = "buy"
+                        action_taken = "entered"
+                        reason = f"SMA cross up + Volume + ML prediction {ml_prediction:.4f} > {ml_threshold}"
+
+                        # Enter position
+                        self._enter_position(latest, timestamp, ml_prediction, portfolio)
+                    else:
+                        signal_type = "buy"
+                        action_taken = "ignored"
+                        reason = f"SMA cross up + Volume OK but ML prediction {ml_prediction:.4f} < {ml_threshold}"
+                else:
+                    # No ML, enter on SMA cross up + volume
+                    signal_type = "buy"
+                    action_taken = "entered"
+                    reason = "SMA cross up + Volume"
+
+                    self._enter_position(latest, timestamp, ml_prediction, portfolio)
 
         # Log signal
         signal_data = {
